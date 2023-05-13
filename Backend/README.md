@@ -20,6 +20,8 @@ Run your code using PM2:
       
 don't forget to adjust the data...
 
-YOUR PROVIDER URL
-WALLET ADDRESS
-YOUR PRIVATE KEY
+            YOUR PROVIDER URL
+
+            WALLET ADDRESS
+
+            YOUR PRIVATE KEY
