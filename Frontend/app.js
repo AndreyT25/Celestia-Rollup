@@ -9,7 +9,7 @@ const ethermint = {
     },
     rpcUrls: {
         default: {
-            http: ['http://207.244.225.191:8545/'],
+            http: ['http://YOUR URL:8545/'],
         },
     },
     testnet: true,
@@ -129,7 +129,7 @@ window.addEventListener('load', async () => {
   const abi = await loadABI(abiPath);
   console.log('ABI loaded:', abi);
 
-  const contractAddress = '0x62239de6dffc90171ad557cac328938a9e37f22d';
+  const contractAddress = 'Contract address';
   
   document.getElementById('message').textContent = '';
 
@@ -171,7 +171,7 @@ window.addEventListener('load', async () => {
   }
   
   async function requestTokens(recipient, amount) {
-  const response = await fetch('http://207.244.225.191:3003/sendTokens', {
+  const response = await fetch('http://YOUR URL:3003/sendTokens', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
