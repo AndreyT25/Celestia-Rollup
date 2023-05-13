@@ -17,3 +17,9 @@ Install PM2 globally:
 Run your code using PM2:
 
       pm2 start app.js
+      
+don't forget to adjust the data...
+
+YOUR PROVIDER URL
+WALLET ADDRESS
+YOUR PRIVATE KEY
