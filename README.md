@@ -28,7 +28,7 @@ We need to set some environment variables.
        NAMESPACE_ID=$(openssl rand -hex 8)
        DA_BLOCK_HEIGHT=$(curl https://rpc-blockspacerace.pops.one/block | jq -r '.result.block.header.height')
 
-With this setup complete, we can now start our Ethermint Rollup: I recommend running in nohunp this will keep your network running 24/7 but remember this program will not restart your process after server restart.. after any server restart you need to run again..
+With this setup complete, we can now start our Ethermint Rollup: I recommend running in nohup this will keep your network running 24/7 but remember this program will not restart your process after server restart.. after any server restart you need to run again..
 
        nohup ethermintd start --rollkit.aggregator true --rollkit.da_layer celestia --rollkit.da_config='{"base_url":"http://localhost:26659","timeout":60000000000,"gas_limit":6000000," fee":6000}' --rollkit.namespace_id $NAMESPACE_ID --rollkit.da_start_height $DA_BLOCK_HEIGHT > ethermintd.log 2>&1 &
 
