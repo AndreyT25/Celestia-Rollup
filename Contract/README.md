@@ -3,6 +3,8 @@ To get started, create a new Foundry project:
       forge init GuessTheNumber
       cd GuessTheNumber
       
+Copy the contents of the folders according to the directory that was created.
+      
 Running the test
 We can now run our tests to make sure our contract is working properly:
 
