@@ -36,3 +36,9 @@ This command should return a successful configuration check message.
       sudo systemctl restart nginx
       
 Copy the files to your directory. default is /var/www/mysite/
+
+# Don't forget to change:
+
+YOUR URL
+
+Contract address
