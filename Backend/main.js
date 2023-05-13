@@ -1,9 +1,9 @@
 const Web3 = require('web3');
-const provider = new Web3.providers.HttpProvider("http://207.244.225.191:8545/");
+const provider = new Web3.providers.HttpProvider("YOUR PROVIDER URL");
 const web3 = new Web3(provider);
 
-const sender = "0xF4c21529085E525bBd58252f00e83dDaD8B3333b";
-const privateKey = "d432cc2fc3bc02ca273a0b7398dbf165f4524cbb554191f54ae1576f56729866";
+const sender = "WALLET ADDRESS";
+const privateKey = "YOUR PRIVATE KEY";
 
 async function sendTestTokens(recipient, amount) {
   const nonce = await web3.eth.getTransactionCount(sender);
