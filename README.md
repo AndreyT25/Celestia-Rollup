@@ -44,11 +44,11 @@ I congratulate you, you have launched your own network on Celestia/
 
 To make the Guess the Number game, follow the instructions below:
 
-Create and run a smart contract on your network [here](https://github.com/AndreyT25/Celestia-Rollup/tree/main/Contract)
+# Create and run a smart contract on your network [here](https://github.com/AndreyT25/Celestia-Rollup/tree/main/Contract)
 
-Create Claim Free Tokens if needed [here](https://github.com/AndreyT25/Celestia-Rollup/tree/main/Backend)
+# Create Claim Free Tokens if needed [here](https://github.com/AndreyT25/Celestia-Rollup/tree/main/Backend)
 
-Create a visualizer of your game [here](https://github.com/AndreyT25/Celestia-Rollup/tree/main/Frontend)
+# Create a visualizer of your game [here](https://github.com/AndreyT25/Celestia-Rollup/tree/main/Frontend)
 
 
-The demo version can be viewed [here](http://207.244.225.191:8080/)
+# The demo version can be viewed [here](http://207.244.225.191:8080/)
