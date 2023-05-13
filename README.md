@@ -15,8 +15,7 @@ You can check if ethermintd is installed by running the following command:
        ethermintd
       
 Run a Celestia light node
-
-       You can do this by following this tutorial [here](https://rollkit.dev/docs/tutorials/ethermint/)
+You can do this by following this tutorial [here](https://rollkit.dev/docs/tutorials/ethermint/)
       
 In the ethermint directory we have a useful bash script that allows you to instantiate a local sovereign build of Ethermint on Celestia.
 
