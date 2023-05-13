@@ -2,7 +2,7 @@
 
 In this tutorial, I'll show you how to create a simple guessing game...
 
-First of all we need to create our network on Celestia Rullkit, official documentation can be seen here
+First of all we need to create our network on Celestia Rullkit, official documentation can be seen [here](https://rollkit.dev/docs/tutorials/ethermint/)
 
 First we will install Rollkit
 
